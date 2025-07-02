@@ -2,6 +2,7 @@ import 'package:flutter_eloquent/src/database_helper.dart';
 
 abstract class BaseModel {
   String get table;
+  String get createTableQuery;
 
   /// Convert model to insertable/updatable map
   Map<String, dynamic> toMap();
