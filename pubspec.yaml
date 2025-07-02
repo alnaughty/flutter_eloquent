@@ -1,6 +1,6 @@
 name: flutter_eloquent
 description: "A flutter sqflite support that works like Laravel eloquent"
-version: 0.0.3
+version: 0.0.4
 homepage:
 
 environment:
